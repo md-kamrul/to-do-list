@@ -8,3 +8,11 @@
     background-color: #02BC7D;
     border: #02BC7D;
 }
+
+.icons{
+    cursor: pointer;
+}
+
+.icons:hover{
+    color: #02BC7D;    
+}
