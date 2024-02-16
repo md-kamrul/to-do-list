@@ -1,51 +1,61 @@
-.input{
+.input {
     color: #171c2aef;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
     border: 1px solid #02BC7D;
 }
 
-.input:focus::placeholder{
+.input:focus::placeholder {
     color: #02bc7eb0;
 }
 
-.btn-outline{
+.btn-outline {
     border: 1px solid #02BC7D;
     color: #02BC7D;
     font-weight: bold;
 }
 
-.btn-outline:hover{
+.btn-outline:hover {
     background-color: #02BC7D;
     border: #02BC7D;
 }
 
-.list{
+.list {
     cursor: pointer;
 }
 
-.list p{
+.list p {
     margin-left: 28px;
     font-size: 18px;
 }
 
-.uncheck{
+.uncheck,
+.listSection .close {
     background-image: url("../images/uncheck.png");
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: 24px;
 }
 
-.uncheck:hover{
+.uncheck:hover {
     background-image: url("../images/uncheck_hover.png");
 }
 
-.check{
+.check {
     background-image: url("../images/check.png");
     text-decoration: line-through;
     text-decoration-color: #02BC7D;
     background-color: #02BC7D;
     border-radius: 5px;
+}
+
+.listSection .close {
+    background-image: url('../images/cancel.png');
+    color: transparent;
+}
+
+.listSection .close:hover {
+    background-image: url('../images/cancel_hover.png');
 }
