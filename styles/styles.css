@@ -22,10 +22,30 @@
     border: #02BC7D;
 }
 
-.icons{
+.list{
     cursor: pointer;
 }
 
-.icons:hover{
-    color: #02BC7D;    
+.list p{
+    margin-left: 28px;
+    font-size: 18px;
+}
+
+.uncheck{
+    background-image: url("../images/uncheck.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 24px;
+}
+
+.uncheck:hover{
+    background-image: url("../images/uncheck_hover.png");
+}
+
+.check{
+    background-image: url("../images/check.png");
+    text-decoration: line-through;
+    text-decoration-color: #02BC7D;
+    background-color: #02BC7D;
+    border-radius: 5px;
 }
