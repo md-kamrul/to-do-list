@@ -26,9 +26,10 @@
     cursor: pointer;
 }
 
-.list p {
+.list div:first-child {
     margin-left: 28px;
     font-size: 18px;
+    width: 100%;
 }
 
 .uncheck,
