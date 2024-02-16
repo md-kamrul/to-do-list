@@ -1,3 +1,16 @@
+.input{
+    color: #171c2aef;
+}
+
+.input:focus{
+    outline: none;
+    border: 1px solid #02BC7D;
+}
+
+.input:focus::placeholder{
+    color: #02bc7eb0;
+}
+
 .btn-outline{
     border: 1px solid #02BC7D;
     color: #02BC7D;
